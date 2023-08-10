@@ -1,0 +1,60 @@
+.navbar-expand-lg .navbar-collapse{
+  justify-content: end;
+}
+/* Dashboard.css */
+.navbar {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.post {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.post .post-header {
+  font-weight: bold;
+}
+
+.post .post-footer button {
+  margin-right: 10px;
+}
+
+.post-form textarea {
+  width: 100%;
+  color: black;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.text{
+  color: black;
+}
+.icons{
+  margin: 36px 24px 19px 30px;
+  cursor: pointer;
+}
+
