@@ -9,7 +9,13 @@ const url='mongodb://127.0.0.1:27017/blogDB';
 
 app.use(bodyParser.json({ limit: "20mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "20mb", extended: true }));
-app.use(cors());
+app.use(cors(
+  {
+    origin:["https://deploy-mern-lwhq.vercel.app"],
+    methods:["POST","GET"],
+    credentials:true
+  }
+));
 app.use('/',blogRoutes);
 
 app.all('/*', function(req, res, next) {
